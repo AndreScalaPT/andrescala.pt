@@ -1,0 +1,40 @@
+baseURL: 
+languageCode: en-us
+title: AndréScalaPT - A Smart Guy!
+theme: PaperMod
+
+params:
+  homeInfoParams:
+    Title: "Hello Stranger"
+    Content: Bem vindos ao meu blog de apoio ao canal!
+  socialIcons:
+    - name: facebook
+      url: "https://facebook.com"
+    - name: youtube
+      url: "https://youtube.com"
+    - name: github
+      url: "https://github.com/AndreScalaPT"
+    - name: instagram
+      url: "https://instagram.com"
+    - name: buymeacoffee
+      url: "https://www.buymeacoffee.com/andrescalapt"
+
+  cover:
+    linkFullImages: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+
+menu:
+  main:
+    - identifier: categories
+      name: Categorias
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30
